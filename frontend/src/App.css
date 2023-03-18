@@ -1,0 +1,189 @@
+*{
+  box-sizing: border-box;
+}
+#header{
+  width: 100%;
+  height: 11vh;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(234, 234, 234);
+}
+#header h3{
+  margin-top: 5px;
+  margin-left: -8%;
+}
+#input-box{
+  margin-right: 3%;
+}
+#logo{
+  width: 45px;
+  height: 40px;
+}
+#search{
+  background: url(images/Search.png) no-repeat 15px;
+  border: none;
+  width: 40vw;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow:  0px 0px 7px  #888888;
+  padding-left: 50px;
+  margin: 5px;
+}
+#dummy{
+  width: 35px;
+  height: 35px;
+  border-radius: 30px;
+  margin-left: 25px;
+}
+#input-box{
+  display: flex;
+}
+@media screen and (max-width: 679px) {
+  #header h3{
+    margin-left: 2%;
+  }
+}
+
+#main{
+  width: 100%;
+  display: flex;
+}
+#left{
+  width: 15%;
+  padding-right: 20px;
+  background-color: rgb(234, 234, 234);
+}
+#right{
+  height: 88.5vh;
+  width: 90%;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+}
+#left div{
+  display: flex;  
+  flex-direction: column;
+}
+#left div button{
+  margin-top: 10px;
+  border: none;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+#dashBoardLink{
+  color: white;
+}
+#left div button a{
+  text-decoration: none;
+  margin-left: 10px;
+  background: none;
+}
+
+#dashboard{
+    background-color: black;
+}
+#left div button img{
+  position: relative;
+  background: none;
+}
+#dashboardButton{
+  background-color: rgb(6, 51, 100);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#pie-chart{
+  background: white;
+  margin-left: 10%;
+  height: 85%;
+}
+#right div{
+  display: flex;
+}
+#notifications{
+  display: flex;
+  flex-direction: column;
+}
+#notifications h3{
+  margin-left: 60%;
+  margin-top: 1%;
+}
+#notification-box{
+  margin-left: 8%;
+  position: absolute;
+  margin-top: 2%;
+  height: 25vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+#notification-box p{
+  margin-top: 1%;
+}
+#notification-box p img{
+  margin-right: 5px;
+}
+
+#right-mid{
+  display: flex;
+  margin-top: -4%;
+  justify-content: space-between;
+}
+#right-mid h3{
+  margin-left: 2%;
+  margin-top: 2%;
+  color: navy ;
+}
+#right-mid div{
+  margin-top: 2%;
+  margin-right: 15%;
+}
+#right-mid div img{
+  height: 28px;
+}
+#right-mid div h4{
+  margin-top: 0.2%;
+}
+#leader{
+  width: 15%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow:  0px 0px 7px  #888888;
+  border-radius: 20px;
+  padding: 3px;
+  margin: 0px 30px 0px 30px;
+}
+#leader h3{
+  margin-bottom: -5px;
+  margin-top: 15%;
+}
+#leader h4{
+  margin: 5px 0px 0px 0px;
+}
+#leader img{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-top: -1.5%;
+  border: 5px solid green;
+}
+.teamLeaders{
+  padding: 1%;
+  height: 22.5vh;
+  padding: 8px 0px 0px 15px;
+}
+
+@media screen and (max-width: 1377px) {
+  #header h3{
+    margin-left: 2%;
+  }
+}
+@media screen and (max-width: 1026px) {
+ #left{
+  display: none;
+ }
+}
